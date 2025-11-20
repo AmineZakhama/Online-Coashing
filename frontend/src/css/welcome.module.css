@@ -1,0 +1,33 @@
+.welcomeSec{
+    margin: auto;
+    
+}
+
+.date{
+    font-size: 0.7rem;
+    margin-left: 43%;
+    margin-bottom: auto;
+}
+
+.welcText{
+    margin-left: 33% ;
+}
+
+.links{
+    margin-left: 37%;
+}
+
+ .viewNotifs,.viewSettings {
+    background-color: #1e252de7;
+    border-radius: 7px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 2px 7px;
+}
+
+.viewNotifs a, .viewSettings a {
+    color: #ffffff ;
+}
+

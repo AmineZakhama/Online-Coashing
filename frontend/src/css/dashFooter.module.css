@@ -1,0 +1,28 @@
+
+.dashFooter{
+    align-items: center;
+    margin: auto;
+}
+.cUser,.uStatus{
+    margin-left: 10rem;
+    margin-right: 20%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 750;
+    font-size: 1.2rem;
+    border: 4.5px solid #eeeeee;
+    border-radius: 7px;
+    padding-left: 12px;
+}
+.dashFooterButton{
+    color: #eeeeee  !important;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    border: 2px solid #e2e2e2 ;
+    background-color: #1e252de7;
+    
+    
+}
+.dashFooterButton:hover{
+    color: #1e252de7 !important;
+    background-color: #ffffff;
+}

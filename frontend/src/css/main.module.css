@@ -1,0 +1,407 @@
+
+
+
+header > .date {
+    display: block;
+    font-size: 0.8rem;
+    height: 1;
+    margin: 0 0 1rem 0;
+    position: relative;
+}
+/* Intro */
+
+	#welcome {
+		color: #ffffff;
+		padding: 8rem 4rem 6rem 4rem ;
+		align-items: center;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-end;
+		transition: opacity 1s ease, transform 1s ease;
+		position: relative;
+		cursor: default;
+		text-align: center;
+		z-index: 1;
+		min-height: 100vh;
+	}
+
+		#welcome a {
+			color: #ffffff;
+			border-bottom-color: rgba(255, 255, 255, 0.5);
+		}
+
+			#welcome a:hover {
+				border-bottom-color: transparent;
+				color: #18bfef !important;
+			}
+
+		#welcome strong, #welcome b {
+			color: #ffffff;
+		}
+
+		#welcome h1, #welcome h2, #welcome h3, #welcome h4, #welcome h5, #welcome h6 {
+			color: #ffffff !important;
+		}
+
+		#welcome blockquote {
+			border-left-color: #ffffff;
+		}
+
+		#welcome code {
+			background: rgba(255, 255, 255, 0.075);
+			border-color: #ffffff;
+		}
+
+		#welcome hr {
+			border-bottom-color: #ffffff;
+		}
+
+		#welcome input[type="submit"],
+		#welcome input[type="reset"],
+		#welcome input[type="button"],
+		#welcome button,
+		#welcome .button {
+			background-color: transparent;
+			box-shadow: inset 0 0 0 2px #ffffff;
+			color: #ffffff !important;
+		}
+
+			#welcome input[type="submit"]:hover,
+			#welcome input[type="reset"]:hover,
+			#welcome input[type="button"]:hover,
+			#welcome button:hover,
+			#welcome .button:hover {
+				box-shadow: inset 0 0 0 2px #18bfef;
+				color: #18bfef !important;
+			}
+
+			#welcome input[type="submit"].primary,
+			#welcome input[type="reset"].primary,
+			#welcome input[type="button"].primary,
+			#welcome button.primary,
+			#welcome .button.primary {
+				background-color: #ffffff;
+				box-shadow: none;
+				color: #1e252d !important;
+			}
+
+				#welcome input[type="submit"].primary:hover,
+				#welcome input[type="reset"].primary:hover,
+				#welcome input[type="button"].primary:hover,
+				#welcome button.primary:hover,
+				#welcome .button.primary:hover {
+					background-color: #18bfef;
+				}
+
+		#welcome h1 {
+			font-size: 5rem;
+			line-height: 1;
+		}
+
+		#welcome p {
+			font-size: 1.25rem;
+			font-style: italic;
+			margin-top: -0.25rem;
+			text-align: center;
+		}
+
+		#welcome + #header {
+			margin-top: -0.5rem;
+		}
+
+			#weolcome + #header .logo {
+				transform: translateY(2rem);
+				opacity: 0;
+				visibility: visible;
+			}
+
+		#welcome.hidden {
+			pointer-events: none;
+			transform: translateY(2rem);
+			transition: opacity 0.5s ease, transform 0.5s ease, visibility 0.5s;
+			opacity: 0;
+			visibility:visible;
+		}
+
+	 		#welcome.hidden + #header .logo {
+				transform: translateY(0);
+				opacity: 1;
+				visibility: visible;
+			}
+
+		body.is-preload #welcome {
+			transform: translateY(2rem);
+			opacity: 0;
+		} 
+
+			body.is-preload #welcome:not(.hidden) + #header + #nav {
+				transform: translateY(4rem);
+				opacity: 1;
+			}
+		
+		.arrowDownIcon{
+			padding: 0.25rem 0.6rem;
+			font-size: 3rem;
+			border: #ffffff solid  ;
+			border-radius: 50px 50px;
+			border-width: 0px;
+			transition: border 0.5s ease;
+		}
+		
+		.arrowDownIcon:hover{
+			border-color: #18bfef;
+		}
+		@media screen and (max-width: 980px) {
+
+			#welcome {
+				padding: 4rem 4rem 2rem 4rem ;
+				min-height: 90vh;
+			}
+
+				#welcome p br {
+					display: none;
+				}
+
+				#welcome + #header {
+					margin-top: -14rem;
+				}
+
+		}
+
+		@media screen and (max-width: 736px) {
+
+			#welcome {
+				padding: 3rem 2rem 1rem 2rem ;
+				min-height: 80vh;
+			}
+
+				#welcome h1 {
+					font-size: 3.25rem;
+					line-height: 1.1;
+					margin-bottom: 1rem;
+				}
+
+				#welcome p {
+					font-size: 1rem;
+					margin-top: 0rem;
+				}
+
+				#welcome .actions {
+					display: none;
+				}
+
+		}
+
+        /*main*/
+
+		#main > .post {
+			padding: 8rem 8rem 6rem 8rem ;
+		}
+
+			#main > .post header.major > .date {
+				margin-top: 5rem ;
+			}
+
+			#main > .post header.major > h1, #main > .post header.major h2 {
+				font-size: 4rem;
+				line-height: 1.1;
+				margin: 0 0 2rem 0;
+			}
+
+			#main > .post.featured {
+				text-align: center;
+			}
+
+			@media screen and (max-width: 1280px) {
+
+				#main > .post {
+					padding: 6rem 4rem 4rem 4rem ;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#main > .post {
+					padding: 4rem 2rem 2rem 2rem ;
+				}
+
+					#main > .post header.major > .date {
+						margin-top: -1rem;
+						margin-bottom: 2rem;
+					}
+
+					#main > .post header.major > h1, #main > .post header.major h2 {
+						font-size: 2.5rem;
+						line-height: 1.2;
+						margin: 0 0 1.5rem 0;
+					}
+
+			}
+		
+			
+				
+
+		 .posts {
+			display: flex;
+			flex-wrap: wrap;
+			align-items: stretch;
+			text-align: center ;
+			align-items: center;
+			width: 85%;
+			padding: 0;
+			border: 10px solid #1e252d !important;
+			margin: auto !important;	
+		}
+		
+		   .arrowDown{
+			margin: auto;
+			opacity: 0.8 ;
+			
+		}
+		
+         .getStartedButton{
+            margin: auto;
+            text-align:center;
+            vertical-align: middle;
+            margin-top:3rem;
+            padding: 0 2.5rem ;
+        }
+		
+
+			 .posts > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+			}
+
+			 .posts > * {
+
+				text-align:center ;
+			}
+
+			#main > .posts > * {
+				padding: 1.5rem;
+				margin-right: 20%;
+				margin-left: 20%;
+				
+			}
+			.stepTitle  {
+				margin: auto;
+			}
+
+			.step{
+				margin:auto;
+				
+			}
+		
+			.posts  .step  .stepPic {
+				display: block;
+				float: left;
+				margin-left: 4rem;
+				
+			}
+			 .posts  .step  .stepText{
+				display: block ;
+				text-align: center ;
+				margin-left: 45%;
+				margin-right: 2rem;
+				
+			}
+
+              .posts  .fadeIn{
+                opacity: 0 ;
+                transition: opacity 250ms ease-in;
+            }
+
+             .posts  .fadeIn.appear{
+                opacity: 1 ;
+            }
+		
+			 .posts  article {
+				border-color: #eeeeee;
+				border-left-width: 2px;
+				border-style: solid;
+				border-top-width: 2px;
+				text-align: center;
+			}
+
+				  .posts  article  :last-child {
+					margin-bottom: 0;
+				}
+
+				  .posts  article:nth-child(2n - 1) {
+					border-left-width: 0;
+				}
+				  .posts  article:nth-child(-n + 2) {
+					border-top-width: 0;
+				}
+
+			@media screen and (max-width: 980px) {
+
+				#main > .posts > * {
+					width: 50%;
+				}
+
+				#main > .posts > * {
+					padding: 2.5rem;
+					width: 50%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				#main > .posts > * {
+					width: 100%;
+				}
+
+				#main > .posts > * {
+					padding: 2rem;
+					width: 100%;
+				}
+
+				#main > .posts > article:nth-child(2n - 1) {
+					border-left-width: 2px;
+				}
+
+				#main > .posts > article:nth-child(-n + 2) {
+					border-top-width: 2px;
+				}
+
+				#main > .posts > article:nth-child(n) {
+					border-left-width: 0;
+				}
+
+				#main > .posts > article:nth-child(-n + 1) {
+					border-top-width: 0;
+				}
+
+				#main > .posts > article .image {
+					max-width: 25rem;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			}
+
+		@media screen and (max-width: 736px) {
+
+			#main > * {
+				padding: 2rem 2rem 0.1rem 2rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#main {
+				width: 100%;
+			}
+
+		}

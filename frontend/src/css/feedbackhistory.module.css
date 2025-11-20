@@ -1,0 +1,63 @@
+/* feedbackhistory.module.css */
+
+.container {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .title {
+    font-size: 28px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .feedbackList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .feedbackItem {
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
+  
+  .feedbackItem:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+  }
+  
+  .feedbackHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+    color: #666;
+  }
+  
+  .user {
+    font-weight: bold;
+  }
+  
+  .date {
+    font-style: italic;
+  }
+  
+  .message {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+  }
+  
+  .rating {
+    font-size: 16px;
+    color: #666;
+    text-align: right;
+  }
+  

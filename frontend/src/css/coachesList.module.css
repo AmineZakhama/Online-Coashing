@@ -1,0 +1,75 @@
+
+/* Main */	
+.section50 {
+    padding: 50px 0;
+}
+
+.mB50 {
+    margin-bottom: 50px;
+}
+
+ .section50 > .text-center > a {
+    color: #333 !important;
+    text-decoration: none !important;
+}
+
+
+.headingLine {
+    position: relative;
+    padding-bottom: 5px;
+}
+
+.headingLine:after {
+    content: "";
+    height: 4px;
+    width: 75px;
+    background-color: #29B6F6;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.notificationUi_ddContent {
+    margin-bottom: 30px;
+}
+
+.notificationList {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-bottom: 7px;
+    background: #011d3317;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+    text-decoration: none; /* Remove underline from link */
+    color: inherit;
+}
+
+.notificationListUnread {
+    border-left: 2px solid #29B6F6;
+}
+
+.notificationList .notificationList_content {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+}
+
+.notificationList .notificationList_content .notificationList_img img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    margin-right: 20px;
+}
+
+.notificationList .notificationList_detail {
+    display: flex;
+    flex-direction: column; 
+}
+
+.notificationList .notificationList_content .notificationList_detail p {
+    margin-bottom: 5px;
+    line-height: 1.2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+}
+

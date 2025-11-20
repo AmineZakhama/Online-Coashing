@@ -1,0 +1,166 @@
+
+
+/* Main */
+		.mainContainer{
+			padding: 0 !important;
+			margin: auto !important;
+		}
+		.card{
+			margin-top: -3rem;
+			margin-left: -3.99rem;
+			margin-right: -3.99rem;
+			background-color: #1e252df5;
+			height: 250px;
+			padding: 10px;
+			position: relative;
+
+		}
+		.card .profileInfo{
+			position: absolute;
+			display: flex;
+			align-items: center;
+
+		}
+		.card .profileInfo .picture{
+			margin-left: 1.5rem;
+			margin-top:  4rem;
+			border: 5px solid #71798173;
+			box-shadow: 2px 2px 10px #0000005e;
+			border-radius: 3px;
+			
+		}
+		
+		.card .nameSpecialite{
+			margin-top: 5rem ;
+			margin-left: 0.5rem;
+			color:#eeeeee !important;
+		}
+		.card .nameSpecialite h6, 
+		.card .nameSpecialite h3, 
+		.card .nameSpecialite h5{
+			color:#eeeeee 
+		}
+		.card .nameSpecialite .drCoach{
+			margin-bottom: 0rem;
+			margin-top: 0;
+			
+		}
+		.card .nameSpecialite .name{
+			margin-bottom: 0rem;
+			margin-top: 0;
+		}
+		.card .nameSpecialite .spec{
+			margin-top: 0rem;
+			margin-bottom: 0rem ;
+		}
+		.card .editProfileButton{
+			position: absolute;
+			bottom: 13px;
+			right: 13px;
+			font-size: 17px ;
+			color:#1e252df5!important ;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			background-color: #eeeeee;
+			border:0.5rem  solid  #1e252df5!important;
+			border-radius: 14px;
+			padding: 0rem 0.5rem  !important;
+			letter-spacing: 0.5px;
+		}
+		.card .editProfileButton:hover{
+			color: #18bfef !important;
+			border-color: #1e252df5!important;
+		}
+		.profileContainer{
+			overflow:hidden;
+		}
+		.profileContainer .bio{
+			display: inline-block;
+			border: 3px solid #1e252d1e;
+			box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.219);
+			width: 30%;
+			margin-left: 0rem;
+			margin-top: 2rem;
+			border-radius: 5px;
+		}
+		.bio .bioTitle{
+			margin-top: 1rem;
+			
+		}
+		.bio .points li{
+			margin-left: 1rem;
+			margin-top: -0rem;
+			font-family:sans-serif;
+			line-height: 1.5rem;
+		}
+		.profileContainer .mainProfile{
+			width:69%;
+			float: right;
+		}
+		.profileContainer .mainProfile .stats{
+			border: 3px solid #1e252d1e;
+			margin: auto;
+			margin-top: 2rem;
+			box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.219);
+			border-radius: 5px;
+		}
+		.profileContainer .mainProfile .stats .statsTitle{
+			margin-top: 1rem;
+		}
+		.profileContainer .mainProfile .stats .statsNumbers h3{
+			margin-left: 5rem;
+		}
+		.profileContainer .ProfileContent{
+			margin-top: 1rem;
+			border: 3px solid #1e252d1e;
+			box-shadow: 1px 0px 5px rgba(0, 0, 0, 0.219);
+			border-radius: 5px;
+			
+		}
+		.profileContainer .ProfileContent .content{
+			width: 90%;
+			margin: auto;
+			margin-top: 0.5rem;
+			margin-bottom: 0.5rem;
+			box-shadow: 0px 0px 5px rgba(18, 19, 41, 0.123);
+			background-color: #24262909;
+			border-radius: 10px;
+			padding: 0.5rem 0.5rem;
+		}
+		.profileContainer .ProfileContent .content .contentUser{
+			display: inline-block;
+		}
+		
+		.profileContainer .ProfileContent .content .contentUser .contentPic{
+			border-radius: 30px;
+		}
+		.profileContainer .ProfileContent .content .contentUser .contentName{
+			display: inline;
+			position: absolute;	
+			padding-left: 1rem;
+			font-size: 20px;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			transition:  color 0.2s ease-in-out;
+		}
+		.profileContainer .ProfileContent .content .contentUser .contentName b{
+			transition:  color 0.2s ease-in-out;
+		}
+
+		.profileContainer .ProfileContent .content .contentUser .contentName b:hover{
+			color: #18bfef ;
+		}
+		.profileContainer .ProfileContent .content .contentIn{
+			width: 90%;
+			margin: auto;
+		}
+		.profileContainer .ProfileContent .content .contentIn p {
+			font-size:15px;
+			font-weight:500;
+			font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		}
+		.profileContainer .ProfileContent .content .contentIn img{
+			display: block;
+			margin: auto;
+			height: auto;
+			width: 50%;
+		}
+		

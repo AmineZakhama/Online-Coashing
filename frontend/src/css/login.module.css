@@ -1,0 +1,293 @@
+
+/* Button */
+
+	input[type="submit"],
+	input[type="reset"],
+	input[type="button"],
+	button,
+	.button {
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px #ffffff !important;
+		color: #ffffff !important;
+	}
+
+		input[type="submit"]:hover,
+		input[type="reset"]:hover,
+		input[type="button"]:hover,
+		button:hover,
+		.button:hover {
+			box-shadow: inset 0 0 0 2px #18bfef;
+			color: #18bfef !important;
+		}
+
+/* Form */
+
+	form {
+		margin: 0 0 0rem 0 !important;
+	}
+
+		form > :last-child {
+			margin-bottom: 0;
+		}
+
+		form > .fields {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			width: calc(100% + 3rem);
+			margin: -1.5rem 0 3rem -1.5rem !important;
+		}
+
+
+	label {
+		display: block;
+		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-weight: 900;
+		line-height: 1.5;
+		letter-spacing: 0.075em;
+		font-size: 1.2rem !important;
+		text-transform: uppercase;
+		margin: 0 0 0.75rem 0;
+		color: #ffffff !important;
+	}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		-moz-appearance: none;
+		-webkit-appearance: none;
+		-ms-appearance: none;
+		appearance: none;
+		background: transparent;
+		border-radius: 0;
+		border: solid 2px;
+		color: inherit;
+		display: block;
+		outline: 0;
+		padding: 0 1rem;
+		text-decoration: none;
+		width: 100%;
+		background-color: #ffffff !important;
+	}
+
+
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select {
+		height:3rem;
+		margin: auto !important;
+	}
+
+	textarea {
+		padding: 0.75rem 0rem !important;
+	}
+
+
+
+		input[type="checkbox"] + label,
+		input[type="radio"] + label {
+			text-decoration: none;
+			cursor: pointer;
+			display: block !important;
+			font-size: 1rem;
+			letter-spacing: 0;
+			font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif !important;
+			text-transform: none;
+			font-weight: 300;
+			padding-left: 2.8rem;
+			padding-right: 1rem;
+			position: relative;
+			float: left;
+			margin-top: -2rem ;
+			margin-bottom: 2rem ;
+		}
+
+	input[type="text"],
+	input[type="password"],
+	input[type="email"],
+	select,
+	textarea {
+		border-color: #747474 !important;
+	}
+
+		input[type="text"]:focus,
+		input[type="password"]:focus,
+		input[type="email"]:focus,
+		select:focus,
+		textarea:focus {
+			border-color: #18bfef;
+		}
+
+/* Actions */
+
+	ul.actions {
+		display: -moz-flex;
+		display: -webkit-flex;
+		display: -ms-flex;
+		display:inline-block !important;
+		cursor: default;
+		list-style: none;
+		margin-left: -1rem !important;
+		padding-left: 0;
+		margin-right: 100% !important;
+		
+	}
+	
+	ul.actions li input{
+		color: #ffffff !important;
+	}
+
+	ul.actions:hover{
+		border-color: #18bfef !important;
+	}
+
+/* Main */
+
+		 .loginForm {
+			display: -moz-flex;
+			display: -webkit-flex;
+			display: -ms-flex;
+			display: flex;
+			-moz-flex-wrap: wrap;
+			-webkit-flex-wrap: wrap;
+			-ms-flex-wrap: wrap;
+			flex-wrap: wrap;
+			-moz-align-items: -moz-stretch;
+			-webkit-align-items: -webkit-stretch;
+			-ms-align-items: -ms-stretch;
+			align-items: stretch;
+			text-align: center;
+			width: 75%;
+			padding: 0;
+			background-color:  #1e252d ;
+			margin: auto !important;
+		}
+
+		 .loginForm  .form{
+			margin: auto !important;
+			margin-top: 1.5rem !important;
+		}
+
+			 .loginForm  .rememberCheck
+			{
+				margin-left: 0rem !important;
+				margin-top: 3.5rem !important;
+			}
+
+		
+
+			 .loginForm > * {
+				-moz-flex-shrink: 1;
+				-webkit-flex-shrink: 1;
+				-ms-flex-shrink: 1;
+				flex-shrink: 1;
+				-moz-flex-grow: 0;
+				-webkit-flex-grow: 0;
+				-ms-flex-grow: 0;
+				flex-grow: 0;
+			}
+
+			 .loginForm > * {
+
+				text-align:center ;
+			}
+
+			.loginForm > * {
+				padding: 1rem;
+				margin-right: 20%;
+				margin-left: 20%;
+				
+			}
+			 .loginForm  .form  .noAccount{
+				color: #eeeeee  !important;
+				display: inline-block ;
+			}
+			.loginForm .form  .noAccount  .signupLink{
+				color:#b3b7bb ;
+				text-decoration: underline ;
+			}
+
+				.loginForm > article > :last-child {
+					margin-bottom: 0;
+				}
+
+				 .loginForm > article:nth-child(2n - 1) {
+					border-left-width: 0;
+				}
+
+				 .loginForm > article:nth-child(-n + 2) {
+					border-top-width: 0;
+				}
+
+			@media screen and (max-width: 980px) {
+
+			 .loginForm > * {
+					width: 50%;
+				}
+
+			 .loginForm > * {
+					padding: 2.5rem;
+					width: 50%;
+				}
+
+			}
+
+			@media screen and (max-width: 736px) {
+
+				.loginForm > * {
+					width: 100%;
+				}
+
+				 .loginForm > * {
+					padding: 2rem;
+					width: 100%;
+				}
+
+				.loginForm > article:nth-child(2n - 1) {
+					border-left-width: 2px;
+				}
+
+				 .loginForm > article:nth-child(-n + 2) {
+					border-top-width: 2px;
+				}
+
+				 .loginForm > article:nth-child(n) {
+					border-left-width: 0;
+				}
+
+				 .loginForm > article:nth-child(-n + 1) {
+					border-top-width: 0;
+				}
+
+				 .loginForm > article .image {
+					max-width: 25rem;
+					margin-left: auto;
+					margin-right: auto;
+				}
+
+			}
+
+		@media screen and (max-width: 736px) {
+
+			 * {
+				padding: 2rem 2rem 0.1rem 2rem ;
+			}
+
+		}
+
+		@media screen and (max-width: 480px) {
+
+			#main {
+				width: 100%;
+			}
+
+		}

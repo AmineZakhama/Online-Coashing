@@ -1,0 +1,46 @@
+.imgAvatar{
+width: 250px !important;
+margin-left: 1rem;
+}	
+.textPrimary{
+    font-size: 66px;
+}
+.photoUpload {
+    background-color: #242629;
+    border: 2px solid;
+    margin: auto;
+    width: 200px;
+    padding: 0.5rem 0rem;
+    height: 3rem;
+    line-height: 1.8rem;
+    font-size: 0.8rem !important;
+    font-weight: 900;
+    letter-spacing: 0.075em;
+    text-align: center;
+    transition: color 0.2s ease-in-out;
+}
+.alertBox{
+    background-color: #1eceff ;
+    width: 100%;
+    padding: 15px 17px;
+   
+}
+
+.alert, .alert strong , .alert a{
+    display: inline ;
+    color: white;
+    font-weight: bold;
+}
+.formHorizontal{
+    width: 100% !important;
+    margin-left: 7rem !important;
+}
+.controlLabel{
+    color: #242629 !important;
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+.passwordChange{
+    width: 70%;
+    margin: auto !important;
+}

@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    height: 50vh;
+  }
+  
+  .sidebar {
+    background-color: #242629;
+    padding: 20px;
+    border-radius: 8px 0 0 8px;
+  }
+
+  
+  
+  .mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #eeeeee;
+    border-radius: 0 8px 8px 0;
+    
+  }
+  
+  .sessionTitle {
+    margin-top: 0;
+    font-size: 40px;
+    color: #242629;
+  }
+  
+  .mainContent  p{
+    display: block;
+    font-weight: 500;
+    margin-top: .5rem;
+    margin-top: 1.9rem;
+    color: #242629;
+    
+  }
+
+  .mainTitle {
+    margin-top: 0;
+    color: #242629;
+  }
+  
+  .sessionDetails p {
+    margin: 5px 0;
+  }
+  
+  .startSessionBtn {
+    background-color: #eeeeee !important;
+    margin-top: 2rem;
+    color: #242629  !important;
+    border: none;
+    padding: 0px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  

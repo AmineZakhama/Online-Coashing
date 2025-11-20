@@ -1,0 +1,9 @@
+.fade-in-element {
+    opacity: 0;
+    transition: opacity 0.7s ease-in; /* Adjust timing as needed */
+  }
+  
+  .fade-in-element.is-visible {
+    opacity: 1;
+  }
+  

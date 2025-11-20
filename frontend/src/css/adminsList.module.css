@@ -1,0 +1,107 @@
+.centeredContainer {
+	display: flex;
+	justify-content: center;
+  }
+
+.container {
+	width: 80%;
+	padding: 20px;
+	background-color: #f9f9f9;
+  }
+
+  .labels th{
+	color:#242629 !important;
+  }
+  
+  .userTable {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 20px 0;
+  }
+  
+  .userTable th, .userTable td {
+	border: 1px solid #ddd;
+	padding: 12px;
+	text-align: left;
+  }
+  
+  .userTable th {
+	color: white;
+	font-weight: bold;
+  }
+  
+  .avatar {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+  }
+  
+  .userInfo {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 10px;
+  }
+  
+  .role {
+	font-size: 0.9em;
+	color: gray;
+  }
+  
+  .status {
+	padding: 5px 10px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	display: inline-block;
+  }
+  
+  .statusInactive {
+	background-color: #808080;
+  }
+  
+  .statusActive {
+	background-color: #008000;
+  }
+  
+  .statusBanned {
+	background-color: #FF0000;
+  }
+  
+  .statusPending {
+	background-color: #FFA500;
+  }
+  
+  .actionBtn {
+	margin: 0 5px !important;
+	cursor: pointer;
+	border: none !important;
+	background: none !important;
+	border-radius: 10px;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	font-size: 1em;
+  }
+  
+  .actionBtnView {
+	color: blue;
+	background-color:#242629  !important;
+  }
+  
+  .actionBtnEdit {
+	color: orange;
+	background-color: #008000 !important;
+  }
+  
+  .actionBtnDelete {
+	color: red;
+	background-color: #FF0000 !important;
+  }
+  
+  .userTable td {
+	vertical-align: middle;
+  }
+  
+  .userInfo div {
+	margin: 2px 0;
+  }
+  

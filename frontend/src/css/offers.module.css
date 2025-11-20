@@ -1,0 +1,70 @@
+.offersContainer {
+    display: flex;
+    flex-direction: row;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 50px;
+    justify-content: center !important; 
+    align-items: stretch;
+    padding-bottom: 15rem !important;
+}
+
+.offer {
+    width: 450px;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    margin: 10px;
+    display: flex; 
+    flex-direction: column;
+}
+.offerContent {
+    padding: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titleBox {
+    background-color:#242629; /* Background color for the title box */
+    padding: 20px;
+}
+.descriptionBox {
+    background-color: rgba(0, 0, 0, 0.1); /* Darker shade for the description box */
+    border-radius: 8px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 10px;
+    flex-grow: 1 ;
+}
+
+.offer:hover {
+    transform: translateY(-5px);
+}
+
+h2, p {
+    margin: 0; 
+}
+
+.offer .titleBox .offerTitle{
+    margin-top: 0 !important;
+    color:#eeeeee !important;
+}
+
+.content .description{
+    display: block;
+    position: relative;
+    margin-top: 1rem;
+}
+
+p {
+    
+    margin-bottom: 0px;
+    
+}
+
+.price {
+    font-weight: bold;
+    color: #333;
+}

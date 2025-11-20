@@ -1,0 +1,50 @@
+/* SessionChangeRequestsList.module.css */
+
+.container {
+    margin-top: 20px;
+  }
+  
+  .title {
+    margin-top: 0;
+    color:#242629;
+  }
+  
+  .requestItem {
+    background-color: #f4f4f4;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .buttons button {
+    margin-right: 10px;
+  }
+  
+  .approveBtn {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .denyBtn {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .statusApproved {
+    color: #28a745;
+    font-weight: bold;
+  }
+  
+  .statusDenied {
+    color: #dc3545;
+    font-weight: bold;
+  }
+  

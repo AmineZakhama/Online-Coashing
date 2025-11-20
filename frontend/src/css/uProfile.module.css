@@ -1,0 +1,128 @@
+
+
+/* Main */
+		.mainContainer{
+			padding: 0 !important;
+			margin: auto !important;
+		}
+
+		.card{
+			margin-top: -3rem;
+			margin-left: -3.99rem;
+			margin-right: -3.99rem;
+			background-color: #1e252df5;
+			height: 250px;
+			padding: 10px;
+			position: relative;
+
+		}
+		.card .profileInfo{
+			position: absolute;
+			display: flex;
+			align-items: center;
+
+		}
+		.card .profileInfo .picture{
+			margin-left: 1.5rem;
+			margin-top:  4rem;
+			border: 5px solid #71798173;
+			box-shadow: 2px 2px 10px #0000005e;
+			border-radius: 3px;
+			
+		}
+		
+		.card .nameSpecialite{
+			margin-top: 7rem;
+			margin-left: 0.5rem;
+			color:#eeeeee !important;
+		} 
+		.card .nameSpecialite .name{
+			margin-bottom: 0rem;
+			margin-top: 0;
+		}
+		.card .logoutButton{
+			position: absolute;
+			bottom: 70px;
+			right: 13px;
+			font-size: 17px ;
+			color:#1e252df5!important ;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			background-color: #eeeeee;
+			border:0.5rem  solid  #1e252df5!important;
+			border-radius: 14px;
+			padding: 0rem 0.5rem   !important;
+			letter-spacing: 0px;
+			line-height: 0;
+		}
+		.card .logoutButton:hover{
+			color: #18bfef !important;
+			border-color: #1e252df5!important;
+		}
+		.card .editProfileButton{
+			position: absolute;
+			bottom: 13px;
+			right: 13px;
+			font-size: 17px ;
+			color:#1e252df5!important ;
+			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			background-color: #eeeeee;
+			border:0.5rem  solid  #1e252df5!important;
+			border-radius: 14px;
+			padding: 0rem 0.5rem   !important;
+			letter-spacing: 0px;
+			line-height: 0;
+			
+		}
+		.card .editProfileButton:hover{
+			color: #18bfef !important;
+			border-color: #1e252df5!important;
+		}
+		.profileContainer{
+			overflow:hidden;
+		}
+		.profileContainer .mainProfile{
+				display: grid;
+				grid-template-columns: 1fr 1fr 1fr;
+		}
+		.profileContainer .mainProfile .stats{
+			margin: 1rem;
+			padding: 2rem;
+			border: 5px solid #ffffff1e;
+			box-shadow: 2px 0px 5px rgba(206, 206, 206, 0.219);
+			display:flex;
+			justify-content: center;
+			align-items: center;
+			text-align: center !important;
+			height: 18rem;
+			background-color: #1e252df5;
+			margin: 0 2rem;
+			margin-bottom: 3rem;
+			margin-top: 5rem;
+		}
+		.stats h2, .stats h1{
+			position:relative;
+			margin: auto;
+			color: #eeeeee;
+		}
+		.stats .title{
+			font-size:30px;
+			text-align: center;
+			padding: 1rem;
+			color: #1e252df5;
+			border-radius: 10px;
+			background-color: #18c0efcb;
+			margin-top: -5rem;
+		}	
+		.stats .number{
+			font-size: 150px;
+			position:absolute;
+		}
+		.stats .plan{
+			font-size: 60px;
+			position:absolute;
+		}
+		.stats .date{
+			font-size: 60px;
+			position:absolute;
+		}
+		
